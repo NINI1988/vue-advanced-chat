@@ -5362,9 +5362,9 @@ const _sfc_main$q = {
 };
 const _hoisted_1$q = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
 const _hoisted_2$n = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
-const _hoisted_3$i = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
-const _hoisted_4$g = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
-const _hoisted_5$a = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
+const _hoisted_3$j = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
+const _hoisted_4$h = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
+const _hoisted_5$b = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
 const _hoisted_6$7 = /* @__PURE__ */ createBaseVNode("div", { id: "vac-circle" }, null, -1);
 function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(Transition, {
@@ -5386,13 +5386,13 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
           _hoisted_2$n
         ]) : createCommentVNode("", true),
         $props.type === "message-file" ? renderSlot(_ctx.$slots, "spinner-icon-message-file_" + $props.messageId, { key: 2 }, () => [
-          _hoisted_3$i
+          _hoisted_3$j
         ]) : createCommentVNode("", true),
         $props.type === "room-file" ? renderSlot(_ctx.$slots, "spinner-icon-room-file", { key: 3 }, () => [
-          _hoisted_4$g
+          _hoisted_4$h
         ]) : createCommentVNode("", true),
         $props.type === "messages" ? renderSlot(_ctx.$slots, "spinner-icon-messages", { key: 4 }, () => [
-          _hoisted_5$a
+          _hoisted_5$b
         ]) : createCommentVNode("", true),
         $props.type === "infinite-messages" ? renderSlot(_ctx.$slots, "spinner-icon-infinite-messages", { key: 5 }, () => [
           _hoisted_6$7
@@ -5497,7 +5497,7 @@ const _sfc_main$p = {
 };
 const _hoisted_1$p = ["viewBox"];
 const _hoisted_2$m = ["id", "d"];
-const _hoisted_3$h = ["id", "d"];
+const _hoisted_3$i = ["id", "d"];
 function _sfc_render$p(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("svg", {
     xmlns: "http://www.w3.org/2000/svg",
@@ -5515,7 +5515,7 @@ function _sfc_render$p(_ctx, _cache, $props, $setup, $data, $options) {
       key: 0,
       id: $options.svgId,
       d: $data.svgItem[$props.name].path2
-    }, null, 8, _hoisted_3$h)) : createCommentVNode("", true)
+    }, null, 8, _hoisted_3$i)) : createCommentVNode("", true)
   ], 8, _hoisted_1$p);
 }
 var SvgIcon = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["render", _sfc_render$p]]);
@@ -6591,8 +6591,8 @@ const _sfc_main$n = {
 };
 const _hoisted_1$n = { class: "vac-image-link-container" };
 const _hoisted_2$k = { class: "vac-image-link-message" };
-const _hoisted_3$g = ["innerHTML"];
-const _hoisted_4$f = ["innerHTML"];
+const _hoisted_3$h = ["innerHTML"];
+const _hoisted_4$g = ["innerHTML"];
 function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
   return openBlock(), createElementBlock("div", {
@@ -6653,7 +6653,7 @@ function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
               ], 64)) : (openBlock(), createElementBlock("span", {
                 key: 2,
                 innerHTML: message.value
-              }, null, 8, _hoisted_3$g))
+              }, null, 8, _hoisted_3$h))
             ]),
             _: 2
           }, 1032, ["class", "href", "target", "rel", "onClick"]))
@@ -6662,7 +6662,7 @@ function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
     ], 2)) : (openBlock(), createElementBlock("div", {
       key: 1,
       innerHTML: $options.formattedContent
-    }, null, 8, _hoisted_4$f))
+    }, null, 8, _hoisted_4$g))
   ], 2);
 }
 var FormatMessage = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$n]]);
@@ -6885,9 +6885,9 @@ const _sfc_main$m = {
 };
 const _hoisted_1$m = { class: "vac-room-container" };
 const _hoisted_2$j = { class: "vac-name-container vac-text-ellipsis" };
-const _hoisted_3$f = { class: "vac-title-container" };
-const _hoisted_4$e = { class: "vac-room-name vac-text-ellipsis" };
-const _hoisted_5$9 = {
+const _hoisted_3$g = { class: "vac-title-container" };
+const _hoisted_4$f = { class: "vac-room-name vac-text-ellipsis" };
+const _hoisted_5$a = {
   key: 1,
   class: "vac-text-date"
 };
@@ -6909,7 +6909,7 @@ const _hoisted_11$3 = {
   key: 0,
   class: "vac-menu-options"
 };
-const _hoisted_12$2 = { class: "vac-menu-list" };
+const _hoisted_12$3 = { class: "vac-menu-list" };
 const _hoisted_13$1 = ["onClick"];
 function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
@@ -6925,13 +6925,13 @@ function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
         }, null, 4)) : createCommentVNode("", true)
       ]),
       createBaseVNode("div", _hoisted_2$j, [
-        createBaseVNode("div", _hoisted_3$f, [
+        createBaseVNode("div", _hoisted_3$g, [
           $options.userStatus ? (openBlock(), createElementBlock("div", {
             key: 0,
             class: normalizeClass(["vac-state-circle", { "vac-state-online": $options.userStatus === "online" }])
           }, null, 2)) : createCommentVNode("", true),
-          createBaseVNode("div", _hoisted_4$e, toDisplayString($props.room.roomName), 1),
-          $props.room.lastMessage ? (openBlock(), createElementBlock("div", _hoisted_5$9, toDisplayString($props.room.lastMessage.timestamp), 1)) : createCommentVNode("", true)
+          createBaseVNode("div", _hoisted_4$f, toDisplayString($props.room.roomName), 1),
+          $props.room.lastMessage ? (openBlock(), createElementBlock("div", _hoisted_5$a, toDisplayString($props.room.lastMessage.timestamp), 1)) : createCommentVNode("", true)
         ]),
         createBaseVNode("div", {
           class: normalizeClass(["vac-text-last", {
@@ -7000,7 +7000,7 @@ function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
               }, {
                 default: withCtx(() => [
                   $data.roomMenuOpened === $props.room.roomId ? withDirectives((openBlock(), createElementBlock("div", _hoisted_11$3, [
-                    createBaseVNode("div", _hoisted_12$2, [
+                    createBaseVNode("div", _hoisted_12$3, [
                       (openBlock(true), createElementBlock(Fragment, null, renderList($props.roomActions, (action) => {
                         return openBlock(), createElementBlock("div", {
                           key: action.name
@@ -7122,10 +7122,10 @@ const _sfc_main$l = {
         this.showLoader = true;
         this.observer.disconnect();
       }
-      const loader = document.querySelector("vue-advanced-chat").shadowRoot.getElementById("infinite-loader-rooms");
+      const loader = this.$el.querySelector("#infinite-loader-rooms");
       if (loader) {
         const options2 = {
-          root: document.querySelector("vue-advanced-chat").shadowRoot.getElementById("rooms-list"),
+          root: this.$el.querySelector("#rooms-list"),
           rootMargin: `${this.scrollDistance}px`,
           threshold: 0
         };
@@ -7177,8 +7177,8 @@ const _hoisted_2$i = {
   id: "rooms-list",
   class: "vac-room-list"
 };
-const _hoisted_3$e = ["id", "onClick"];
-const _hoisted_4$d = {
+const _hoisted_3$f = ["id", "onClick"];
+const _hoisted_4$e = {
   key: 0,
   id: "infinite-loader-rooms"
 };
@@ -7257,11 +7257,11 @@ function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
               };
             })
           ]), 1032, ["current-user-id", "room", "text-formatting", "link-options", "text-messages", "room-actions"])
-        ], 10, _hoisted_3$e);
+        ], 10, _hoisted_3$f);
       }), 128)),
       createVNode(Transition, { name: "vac-fade-message" }, {
         default: withCtx(() => [
-          $props.rooms.length && !$props.loadingRooms ? (openBlock(), createElementBlock("div", _hoisted_4$d, [
+          $props.rooms.length && !$props.loadingRooms ? (openBlock(), createElementBlock("div", _hoisted_4$e, [
             createVNode(_component_loader, {
               show: $data.showLoader,
               infinite: true,
@@ -7365,12 +7365,12 @@ const _sfc_main$k = {
 };
 const _hoisted_1$k = { class: "vac-room-header vac-app-border-b" };
 const _hoisted_2$h = { class: "vac-room-wrapper" };
-const _hoisted_3$d = {
+const _hoisted_3$e = {
   key: 0,
   class: "vac-room-selection"
 };
-const _hoisted_4$c = ["id"];
-const _hoisted_5$8 = ["onClick"];
+const _hoisted_4$d = ["id"];
+const _hoisted_5$9 = ["onClick"];
 const _hoisted_6$5 = { class: "vac-selection-button-count" };
 const _hoisted_7$5 = { class: "vac-text-ellipsis" };
 const _hoisted_8$3 = { class: "vac-room-name vac-text-ellipsis" };
@@ -7386,7 +7386,7 @@ const _hoisted_11$2 = {
   key: 0,
   class: "vac-menu-options"
 };
-const _hoisted_12$1 = { class: "vac-menu-list" };
+const _hoisted_12$2 = { class: "vac-menu-list" };
 const _hoisted_13 = ["onClick"];
 function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
@@ -7396,7 +7396,7 @@ function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
       createBaseVNode("div", _hoisted_2$h, [
         createVNode(Transition, { name: "vac-slide-up" }, {
           default: withCtx(() => [
-            $props.messageSelectionEnabled ? (openBlock(), createElementBlock("div", _hoisted_3$d, [
+            $props.messageSelectionEnabled ? (openBlock(), createElementBlock("div", _hoisted_3$e, [
               (openBlock(true), createElementBlock(Fragment, null, renderList($props.messageSelectionActions, (action) => {
                 return openBlock(), createElementBlock("div", {
                   id: action.name,
@@ -7408,8 +7408,8 @@ function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
                   }, [
                     createTextVNode(toDisplayString(action.title) + " ", 1),
                     createBaseVNode("span", _hoisted_6$5, toDisplayString($props.selectedMessagesTotal), 1)
-                  ], 8, _hoisted_5$8)
-                ], 8, _hoisted_4$c);
+                  ], 8, _hoisted_5$9)
+                ], 8, _hoisted_4$d);
               }), 128)),
               createBaseVNode("div", {
                 class: "vac-selection-cancel vac-item-clickable",
@@ -7466,7 +7466,7 @@ function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
             }, {
               default: withCtx(() => [
                 $data.menuOpened ? withDirectives((openBlock(), createElementBlock("div", _hoisted_11$2, [
-                  createBaseVNode("div", _hoisted_12$1, [
+                  createBaseVNode("div", _hoisted_12$2, [
                     (openBlock(true), createElementBlock(Fragment, null, renderList($props.menuActions, (action) => {
                       return openBlock(), createElementBlock("div", {
                         key: action.name
@@ -10235,6 +10235,15 @@ Object.defineProperties(PickerElement.prototype, definitions);
 if (!customElements.get("emoji-picker")) {
   customElements.define("emoji-picker", PickerElement);
 }
+function findParentBySelector(node, selector) {
+  while (node && !node.querySelector(selector)) {
+    node = node.parentNode;
+    const element2 = node.querySelector(selector);
+    if (element2)
+      return element2;
+  }
+  return null;
+}
 const _sfc_main$j = {
   name: "EmojiPickerContainer",
   components: {
@@ -10245,7 +10254,8 @@ const _sfc_main$j = {
     emojiReaction: { type: Boolean, default: false },
     positionTop: { type: Boolean, default: false },
     positionRight: { type: Boolean, default: false },
-    messageId: { type: String, default: "" }
+    messageId: { type: String, default: "" },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: ["add-emoji", "open-emoji"],
   data() {
@@ -10308,7 +10318,7 @@ const _sfc_main$j = {
     },
     setEmojiPickerPosition(clientY, innerWidth, innerHeight) {
       const mobileSize = innerWidth < 500 || innerHeight < 700;
-      const roomFooterRef = document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer");
+      const roomFooterRef = findParentBySelector(this.$el, "#room-footer");
       if (!roomFooterRef) {
         if (mobileSize)
           this.emojiPickerRight = "-50px";
@@ -10331,12 +10341,9 @@ const _sfc_main$j = {
   }
 };
 const _hoisted_1$j = { class: "vac-emoji-wrapper" };
-const _hoisted_2$g = {
-  ref: "emojiPicker",
-  "v-if": "emojiOpened"
-};
 function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
+  const _component_emoji_picker = resolveComponent("emoji-picker");
   return openBlock(), createElementBlock("div", _hoisted_1$j, [
     createBaseVNode("div", {
       class: normalizeClass(["vac-svg-button", { "vac-emoji-reaction": $props.emojiReaction }]),
@@ -10369,7 +10376,11 @@ function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
             display: $data.emojiPickerTop || !$props.emojiReaction ? "initial" : "none"
           })
         }, [
-          createBaseVNode("emoji-picker", _hoisted_2$g, null, 512)
+          $props.emojiOpened ? (openBlock(), createBlock(_component_emoji_picker, {
+            key: 0,
+            ref: "emojiPicker",
+            "data-source": $props.emojiDataSource
+          }, null, 8, ["data-source"])) : createCommentVNode("", true)
         ], 6)
       ]),
       _: 1
@@ -10398,9 +10409,9 @@ const _sfc_main$i = {
   }
 };
 const _hoisted_1$i = { class: "vac-room-file-container" };
-const _hoisted_2$f = ["src"];
-const _hoisted_3$c = { class: "vac-text-ellipsis" };
-const _hoisted_4$b = {
+const _hoisted_2$g = ["src"];
+const _hoisted_3$d = { class: "vac-text-ellipsis" };
+const _hoisted_4$c = {
   key: 0,
   class: "vac-text-ellipsis vac-text-extension"
 };
@@ -10445,7 +10456,7 @@ function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
     }, [
       createBaseVNode("source", {
         src: $props.file.localUrl || $props.file.url
-      }, null, 8, _hoisted_2$f)
+      }, null, 8, _hoisted_2$g)
     ], 2)) : (openBlock(), createElementBlock("div", {
       key: 2,
       class: normalizeClass(["vac-file-container", { "vac-blur-loading": $props.file.loading }])
@@ -10455,8 +10466,8 @@ function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
           createVNode(_component_svg_icon, { name: "file" })
         ])
       ]),
-      createBaseVNode("div", _hoisted_3$c, toDisplayString($props.file.name), 1),
-      $props.file.extension ? (openBlock(), createElementBlock("div", _hoisted_4$b, toDisplayString($props.file.extension), 1)) : createCommentVNode("", true)
+      createBaseVNode("div", _hoisted_3$d, toDisplayString($props.file.name), 1),
+      $props.file.extension ? (openBlock(), createElementBlock("div", _hoisted_4$c, toDisplayString($props.file.extension), 1)) : createCommentVNode("", true)
     ], 2))
   ]);
 }
@@ -10471,25 +10482,21 @@ const _sfc_main$h = {
     files: { type: Array, required: true }
   },
   emits: ["remove-file", "reset-message"],
-  computed: {
-    footerHeight() {
-      return document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer").clientHeight;
-    }
-  }
+  computed: {}
 };
-const _hoisted_1$h = { class: "vac-files-box" };
-const _hoisted_2$e = { class: "vac-icon-close" };
+const _hoisted_1$h = {
+  key: 0,
+  class: "vac-room-files-container"
+};
+const _hoisted_2$f = { class: "vac-files-box" };
+const _hoisted_3$c = { class: "vac-icon-close" };
 function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_room_file = resolveComponent("room-file");
   const _component_svg_icon = resolveComponent("svg-icon");
   return openBlock(), createBlock(Transition, { name: "vac-slide-up" }, {
     default: withCtx(() => [
-      $props.files.length ? (openBlock(), createElementBlock("div", {
-        key: 0,
-        class: "vac-room-files-container",
-        style: normalizeStyle({ bottom: `${$options.footerHeight}px` })
-      }, [
-        createBaseVNode("div", _hoisted_1$h, [
+      $props.files.length ? (openBlock(), createElementBlock("div", _hoisted_1$h, [
+        createBaseVNode("div", _hoisted_2$f, [
           (openBlock(true), createElementBlock(Fragment, null, renderList($props.files, (file, i) => {
             return openBlock(), createElementBlock("div", { key: i }, [
               createVNode(_component_room_file, {
@@ -10509,7 +10516,7 @@ function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
             ]);
           }), 128))
         ]),
-        createBaseVNode("div", _hoisted_2$e, [
+        createBaseVNode("div", _hoisted_3$c, [
           createBaseVNode("div", {
             class: "vac-svg-button",
             onClick: _cache[1] || (_cache[1] = ($event) => _ctx.$emit("reset-message"))
@@ -10519,7 +10526,7 @@ function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
             ])
           ])
         ])
-      ], 4)) : createCommentVNode("", true)
+      ])) : createCommentVNode("", true)
     ]),
     _: 3
   });
@@ -10572,7 +10579,7 @@ const _sfc_main$g = {
   }
 };
 const _hoisted_1$g = { class: "vac-player-progress" };
-const _hoisted_2$d = { class: "vac-line-container" };
+const _hoisted_2$e = { class: "vac-line-container" };
 function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("div", {
     ref: "progress",
@@ -10582,7 +10589,7 @@ function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
     onMouseout: _cache[2] || (_cache[2] = ($event) => _ctx.$emit("hover-audio-progress", false))
   }, [
     createBaseVNode("div", _hoisted_1$g, [
-      createBaseVNode("div", _hoisted_2$d, [
+      createBaseVNode("div", _hoisted_2$e, [
         createBaseVNode("div", {
           class: "vac-line-progress",
           style: normalizeStyle({ width: `${$props.percentage}%` })
@@ -10628,7 +10635,7 @@ const _sfc_main$f = {
     }
   },
   mounted() {
-    this.player = document.querySelector("vue-advanced-chat").shadowRoot.getElementById(this.playerUniqId);
+    this.player = this.$el.querySelector("#" + this.playerUniqId);
     this.player.addEventListener("ended", () => {
       this.isPlaying = false;
     });
@@ -10679,7 +10686,7 @@ const _sfc_main$f = {
   }
 };
 const _hoisted_1$f = { class: "vac-audio-player" };
-const _hoisted_2$c = ["id", "src"];
+const _hoisted_2$d = ["id", "src"];
 function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_svg_icon = resolveComponent("svg-icon");
   const _component_audio_control = resolveComponent("audio-control");
@@ -10704,7 +10711,7 @@ function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
       createBaseVNode("audio", {
         id: $options.playerUniqId,
         src: $options.audioSource
-      }, null, 8, _hoisted_2$c)
+      }, null, 8, _hoisted_2$d)
     ])
   ]);
 }
@@ -10724,9 +10731,6 @@ const _sfc_main$e = {
   },
   emits: ["reset-message"],
   computed: {
-    footerHeight() {
-      return document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer").clientHeight;
-    },
     firstFile() {
       var _a, _b;
       return ((_b = (_a = this.messageReply) == null ? void 0 : _a.files) == null ? void 0 : _b.length) ? this.messageReply.files[0] : {};
@@ -10746,42 +10750,42 @@ const _sfc_main$e = {
     }
   }
 };
-const _hoisted_1$e = { class: "vac-reply-box" };
-const _hoisted_2$b = { class: "vac-reply-info" };
-const _hoisted_3$b = { class: "vac-reply-username" };
-const _hoisted_4$a = { class: "vac-reply-content" };
-const _hoisted_5$7 = ["src"];
-const _hoisted_6$4 = {
+const _hoisted_1$e = {
+  key: 0,
+  class: "vac-reply-container"
+};
+const _hoisted_2$c = { class: "vac-reply-box" };
+const _hoisted_3$b = { class: "vac-reply-info" };
+const _hoisted_4$b = { class: "vac-reply-username" };
+const _hoisted_5$8 = { class: "vac-reply-content" };
+const _hoisted_6$4 = ["src"];
+const _hoisted_7$4 = {
   key: 1,
   controls: "",
   class: "vac-image-reply"
 };
-const _hoisted_7$4 = ["src"];
-const _hoisted_8$2 = {
+const _hoisted_8$2 = ["src"];
+const _hoisted_9$2 = {
   key: 3,
   class: "vac-image-reply vac-file-container"
 };
-const _hoisted_9$2 = { class: "vac-text-ellipsis" };
-const _hoisted_10$2 = {
+const _hoisted_10$2 = { class: "vac-text-ellipsis" };
+const _hoisted_11$1 = {
   key: 0,
   class: "vac-text-ellipsis vac-text-extension"
 };
-const _hoisted_11$1 = { class: "vac-icon-reply" };
+const _hoisted_12$1 = { class: "vac-icon-reply" };
 function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_format_message = resolveComponent("format-message");
   const _component_audio_player = resolveComponent("audio-player");
   const _component_svg_icon = resolveComponent("svg-icon");
   return openBlock(), createBlock(Transition, { name: "vac-slide-up" }, {
     default: withCtx(() => [
-      $props.messageReply ? (openBlock(), createElementBlock("div", {
-        key: 0,
-        class: "vac-reply-container",
-        style: normalizeStyle({ bottom: `${$options.footerHeight}px` })
-      }, [
-        createBaseVNode("div", _hoisted_1$e, [
-          createBaseVNode("div", _hoisted_2$b, [
-            createBaseVNode("div", _hoisted_3$b, toDisplayString($props.messageReply.username), 1),
-            createBaseVNode("div", _hoisted_4$a, [
+      $props.messageReply ? (openBlock(), createElementBlock("div", _hoisted_1$e, [
+        createBaseVNode("div", _hoisted_2$c, [
+          createBaseVNode("div", _hoisted_3$b, [
+            createBaseVNode("div", _hoisted_4$b, toDisplayString($props.messageReply.username), 1),
+            createBaseVNode("div", _hoisted_5$8, [
               createVNode(_component_format_message, {
                 "message-id": $props.messageReply._id,
                 content: $props.messageReply.content,
@@ -10796,10 +10800,10 @@ function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
             key: 0,
             src: $options.firstFile.url,
             class: "vac-image-reply"
-          }, null, 8, _hoisted_5$7)) : $options.isVideo ? (openBlock(), createElementBlock("video", _hoisted_6$4, [
+          }, null, 8, _hoisted_6$4)) : $options.isVideo ? (openBlock(), createElementBlock("video", _hoisted_7$4, [
             createBaseVNode("source", {
               src: $options.firstFile.url
-            }, null, 8, _hoisted_7$4)
+            }, null, 8, _hoisted_8$2)
           ])) : $options.isAudio ? (openBlock(), createBlock(_component_audio_player, {
             key: 2,
             src: $options.firstFile.url,
@@ -10814,17 +10818,17 @@ function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
                 ])
               };
             })
-          ]), 1032, ["src"])) : $options.isOtherFile ? (openBlock(), createElementBlock("div", _hoisted_8$2, [
+          ]), 1032, ["src"])) : $options.isOtherFile ? (openBlock(), createElementBlock("div", _hoisted_9$2, [
             createBaseVNode("div", null, [
               renderSlot(_ctx.$slots, "file-icon", {}, () => [
                 createVNode(_component_svg_icon, { name: "file" })
               ])
             ]),
-            createBaseVNode("div", _hoisted_9$2, toDisplayString($options.firstFile.name), 1),
-            $options.firstFile.extension ? (openBlock(), createElementBlock("div", _hoisted_10$2, toDisplayString($options.firstFile.extension), 1)) : createCommentVNode("", true)
+            createBaseVNode("div", _hoisted_10$2, toDisplayString($options.firstFile.name), 1),
+            $options.firstFile.extension ? (openBlock(), createElementBlock("div", _hoisted_11$1, toDisplayString($options.firstFile.extension), 1)) : createCommentVNode("", true)
           ])) : createCommentVNode("", true)
         ]),
-        createBaseVNode("div", _hoisted_11$1, [
+        createBaseVNode("div", _hoisted_12$1, [
           createBaseVNode("div", {
             class: "vac-svg-button",
             onClick: _cache[0] || (_cache[0] = ($event) => _ctx.$emit("reset-message"))
@@ -10834,7 +10838,7 @@ function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
             ])
           ])
         ])
-      ], 4)) : createCommentVNode("", true)
+      ])) : createCommentVNode("", true)
     ]),
     _: 3
   });
@@ -10853,11 +10857,7 @@ const _sfc_main$d = {
       activeItem: null
     };
   },
-  computed: {
-    footerHeight() {
-      return document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer").clientHeight;
-    }
-  },
+  computed: {},
   watch: {
     filteredUsersTag(val, oldVal) {
       if (!oldVal.length || val.length !== oldVal.length) {
@@ -10879,17 +10879,17 @@ const _sfc_main$d = {
     }
   }
 };
-const _hoisted_1$d = ["onMouseover", "onClick"];
-const _hoisted_2$a = { class: "vac-tags-info" };
-const _hoisted_3$a = { class: "vac-tags-username" };
+const _hoisted_1$d = {
+  key: 0,
+  class: "vac-tags-container"
+};
+const _hoisted_2$b = ["onMouseover", "onClick"];
+const _hoisted_3$a = { class: "vac-tags-info" };
+const _hoisted_4$a = { class: "vac-tags-username" };
 function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(Transition, { name: "vac-slide-up" }, {
     default: withCtx(() => [
-      $props.filteredUsersTag.length ? (openBlock(), createElementBlock("div", {
-        key: 0,
-        class: "vac-tags-container",
-        style: normalizeStyle({ bottom: `${$options.footerHeight}px` })
-      }, [
+      $props.filteredUsersTag.length ? (openBlock(), createElementBlock("div", _hoisted_1$d, [
         (openBlock(true), createElementBlock(Fragment, null, renderList($props.filteredUsersTag, (user, index) => {
           return openBlock(), createElementBlock("div", {
             key: user._id,
@@ -10897,17 +10897,17 @@ function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
             onMouseover: ($event) => $data.activeItem = index,
             onClick: ($event) => _ctx.$emit("select-user-tag", user)
           }, [
-            createBaseVNode("div", _hoisted_2$a, [
+            createBaseVNode("div", _hoisted_3$a, [
               user.avatar ? (openBlock(), createElementBlock("div", {
                 key: 0,
                 class: "vac-avatar vac-tags-avatar",
                 style: normalizeStyle({ "background-image": `url('${user.avatar}')` })
               }, null, 4)) : createCommentVNode("", true),
-              createBaseVNode("div", _hoisted_3$a, toDisplayString(user.username), 1)
+              createBaseVNode("div", _hoisted_4$a, toDisplayString(user.username), 1)
             ])
-          ], 42, _hoisted_1$d);
+          ], 42, _hoisted_2$b);
         }), 128))
-      ], 4)) : createCommentVNode("", true)
+      ])) : createCommentVNode("", true)
     ]),
     _: 1
   });
@@ -10926,11 +10926,7 @@ const _sfc_main$c = {
       activeItem: null
     };
   },
-  computed: {
-    footerHeight() {
-      return document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer").clientHeight;
-    }
-  },
+  computed: {},
   watch: {
     filteredEmojis(val, oldVal) {
       if (!oldVal.length || val.length !== oldVal.length) {
@@ -10952,24 +10948,24 @@ const _sfc_main$c = {
     }
   }
 };
-const _hoisted_1$c = ["onMouseover", "onClick"];
+const _hoisted_1$c = {
+  key: 0,
+  class: "vac-emojis-container"
+};
+const _hoisted_2$a = ["onMouseover", "onClick"];
 function _sfc_render$c(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(Transition, { name: "vac-slide-up" }, {
     default: withCtx(() => [
-      $props.filteredEmojis.length ? (openBlock(), createElementBlock("div", {
-        key: 0,
-        class: "vac-emojis-container",
-        style: normalizeStyle({ bottom: `${$options.footerHeight}px` })
-      }, [
+      $props.filteredEmojis.length ? (openBlock(), createElementBlock("div", _hoisted_1$c, [
         (openBlock(true), createElementBlock(Fragment, null, renderList($props.filteredEmojis, (emoji, index) => {
           return openBlock(), createElementBlock("div", {
             key: emoji,
             class: normalizeClass(["vac-emoji-element", { "vac-emoji-element-active": index === $data.activeItem }]),
             onMouseover: ($event) => $data.activeItem = index,
             onClick: ($event) => _ctx.$emit("select-emoji", emoji)
-          }, toDisplayString(emoji), 43, _hoisted_1$c);
+          }, toDisplayString(emoji), 43, _hoisted_2$a);
         }), 128))
-      ], 4)) : createCommentVNode("", true)
+      ])) : createCommentVNode("", true)
     ]),
     _: 1
   });
@@ -10988,11 +10984,7 @@ const _sfc_main$b = {
       activeItem: null
     };
   },
-  computed: {
-    footerHeight() {
-      return document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer").clientHeight;
-    }
-  },
+  computed: {},
   watch: {
     filteredTemplatesText(val, oldVal) {
       if (!oldVal.length || val.length !== oldVal.length) {
@@ -11017,18 +11009,18 @@ const _sfc_main$b = {
     }
   }
 };
-const _hoisted_1$b = ["onMouseover", "onClick"];
-const _hoisted_2$9 = { class: "vac-template-info" };
-const _hoisted_3$9 = { class: "vac-template-tag" };
-const _hoisted_4$9 = { class: "vac-template-text" };
+const _hoisted_1$b = {
+  key: 0,
+  class: "vac-template-container vac-app-box-shadow"
+};
+const _hoisted_2$9 = ["onMouseover", "onClick"];
+const _hoisted_3$9 = { class: "vac-template-info" };
+const _hoisted_4$9 = { class: "vac-template-tag" };
+const _hoisted_5$7 = { class: "vac-template-text" };
 function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createBlock(Transition, { name: "vac-slide-up" }, {
     default: withCtx(() => [
-      $props.filteredTemplatesText.length ? (openBlock(), createElementBlock("div", {
-        key: 0,
-        class: "vac-template-container vac-app-box-shadow",
-        style: normalizeStyle({ bottom: `${$options.footerHeight}px` })
-      }, [
+      $props.filteredTemplatesText.length ? (openBlock(), createElementBlock("div", _hoisted_1$b, [
         (openBlock(true), createElementBlock(Fragment, null, renderList($props.filteredTemplatesText, (template, index) => {
           return openBlock(), createElementBlock("div", {
             key: index,
@@ -11036,13 +11028,13 @@ function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
             onMouseover: ($event) => $data.activeItem = index,
             onClick: ($event) => _ctx.$emit("select-template-text", template)
           }, [
-            createBaseVNode("div", _hoisted_2$9, [
-              createBaseVNode("div", _hoisted_3$9, " /" + toDisplayString(template.tag), 1),
-              createBaseVNode("div", _hoisted_4$9, toDisplayString(template.text), 1)
+            createBaseVNode("div", _hoisted_3$9, [
+              createBaseVNode("div", _hoisted_4$9, " /" + toDisplayString(template.tag), 1),
+              createBaseVNode("div", _hoisted_5$7, toDisplayString(template.text), 1)
             ])
-          ], 42, _hoisted_1$b);
+          ], 42, _hoisted_2$9);
         }), 128))
-      ], 4)) : createCommentVNode("", true)
+      ])) : createCommentVNode("", true)
     ]),
     _: 1
   });
@@ -26514,7 +26506,8 @@ const _sfc_main$a = {
     audioSampleRate: { type: Number, required: true },
     initReplyMessage: { type: Object, default: null },
     initEditMessage: { type: Object, default: null },
-    droppedFiles: { type: Array, default: null }
+    droppedFiles: { type: Array, default: null },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: [
     "edit-message",
@@ -26538,7 +26531,7 @@ const _sfc_main$a = {
       activeUpOrDownEmojis: null,
       activeUpOrDownUsersTag: null,
       activeUpOrDownTemplatesText: null,
-      emojisDB: new Database(),
+      emojisDB: new Database({ dataSource: this.emojiDataSource }),
       emojiOpened: false,
       keepKeyboardOpen: false,
       filteredEmojis: [],
@@ -27160,6 +27153,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
             createVNode(_component_emoji_picker_container, {
               "emoji-opened": $data.emojiOpened,
               "position-top": true,
+              "emoji-data-source": $props.emojiDataSource,
               onAddEmoji: $options.addEmoji,
               onOpenEmoji: _cache[20] || (_cache[20] = ($event) => $data.emojiOpened = $event)
             }, {
@@ -27167,7 +27161,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
                 renderSlot(_ctx.$slots, "emoji-picker-icon")
               ]),
               _: 3
-            }, 8, ["emoji-opened", "onAddEmoji"])
+            }, 8, ["emoji-opened", "emoji-data-source", "onAddEmoji"])
           ])
         ])), [
           [_directive_click_outside, () => $data.emojiOpened = false]
@@ -27672,7 +27666,8 @@ const _sfc_main$5 = {
     showReactionEmojis: { type: Boolean, required: true },
     messageHover: { type: Boolean, required: true },
     hoverMessageId: { type: [String, Number], default: null },
-    hoverAudioProgress: { type: Boolean, required: true }
+    hoverAudioProgress: { type: Boolean, required: true },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: [
     "update-emoji-opened",
@@ -27718,7 +27713,7 @@ const _sfc_main$5 = {
       if (!this.optionsOpened)
         return;
       setTimeout(() => {
-        const roomFooterRef = document.querySelector("vue-advanced-chat").shadowRoot.getElementById("room-footer");
+        const roomFooterRef = findParentBySelector(this.$el, "#room-footer");
         if (!roomFooterRef || !this.$refs.menuOptions || !this.$refs.actionIcon) {
           return;
         }
@@ -27809,6 +27804,7 @@ function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
                 "emoji-reaction": true,
                 "position-right": $props.message.senderId === $props.currentUserId,
                 "message-id": $props.message._id,
+                "emoji-data-source": $props.emojiDataSource,
                 onAddEmoji: $options.sendMessageReaction,
                 onOpenEmoji: $options.openEmoji
               }, createSlots({ _: 2 }, [
@@ -27820,7 +27816,7 @@ function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
                     ])
                   };
                 })
-              ]), 1032, ["style", "emoji-opened", "position-right", "message-id", "onAddEmoji", "onOpenEmoji"])
+              ]), 1032, ["style", "emoji-opened", "position-right", "message-id", "emoji-data-source", "onAddEmoji", "onOpenEmoji"])
             ])
           ])), [
             [_directive_click_outside, $options.closeEmoji]
@@ -27994,7 +27990,8 @@ const _sfc_main$3 = {
     linkOptions: { type: Object, required: true },
     usernameOptions: { type: Object, required: true },
     messageSelectionEnabled: { type: Boolean, required: true },
-    selectedMessages: { type: Array, default: () => [] }
+    selectedMessages: { type: Array, default: () => [] },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: [
     "message-added",
@@ -28214,11 +28211,12 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
       onClick: _cache[8] || (_cache[8] = (...args) => $options.selectMessage && $options.selectMessage(...args))
     }, [
       renderSlot(_ctx.$slots, "message_" + $props.message._id, {}, () => [
-        $props.message.avatar && $props.message.senderId !== $props.currentUserId ? renderSlot(_ctx.$slots, "message-avatar_" + $props.message._id, { key: 0 }, () => [
-          createBaseVNode("div", {
+        $props.message.senderId !== $props.currentUserId ? renderSlot(_ctx.$slots, "message-avatar_" + $props.message._id, { key: 0 }, () => [
+          $props.message.avatar ? (openBlock(), createElementBlock("div", {
+            key: 0,
             class: "vac-avatar",
             style: normalizeStyle({ "background-image": `url('${$props.message.avatar}')` })
-          }, null, 4)
+          }, null, 4)) : createCommentVNode("", true)
         ]) : createCommentVNode("", true),
         $options.hasSenderUserAvatar && !$props.message.avatar ? (openBlock(), createElementBlock("div", _hoisted_5$2)) : createCommentVNode("", true),
         createBaseVNode("div", {
@@ -28343,6 +28341,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
               "message-hover": $data.messageHover,
               "hover-message-id": $data.hoverMessageId,
               "hover-audio-progress": $data.hoverAudioProgress,
+              "emoji-data-source": $props.emojiDataSource,
               onUpdateMessageHover: _cache[2] || (_cache[2] = ($event) => $data.messageHover = $event),
               onUpdateOptionsOpened: _cache[3] || (_cache[3] = ($event) => $data.optionsOpened = $event),
               onUpdateEmojiOpened: _cache[4] || (_cache[4] = ($event) => $data.emojiOpened = $event),
@@ -28357,7 +28356,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
                   ])
                 };
               })
-            ]), 1032, ["current-user-id", "message", "message-actions", "show-reaction-emojis", "message-hover", "hover-message-id", "hover-audio-progress", "onMessageActionHandler", "onSendMessageReaction"])
+            ]), 1032, ["current-user-id", "message", "message-actions", "show-reaction-emojis", "message-hover", "hover-message-id", "hover-audio-progress", "emoji-data-source", "onMessageActionHandler", "onSendMessageReaction"])
           ], 34),
           createVNode(_component_message_reactions, {
             "current-user-id": $props.currentUserId,
@@ -28374,11 +28373,12 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
             onClick: _cache[7] || (_cache[7] = ($event) => _ctx.$emit("open-failed-message", { message: $props.message }))
           }, _hoisted_11, 2)) : createCommentVNode("", true)
         ]),
-        $props.message.avatar && $props.message.senderId === $props.currentUserId ? renderSlot(_ctx.$slots, "message-avatar_" + $props.message._id, { key: 2 }, () => [
-          createBaseVNode("div", {
+        $props.message.senderId === $props.currentUserId ? renderSlot(_ctx.$slots, "message-avatar_" + $props.message._id, { key: 2 }, () => [
+          $props.message.avatar ? (openBlock(), createElementBlock("div", {
+            key: 0,
             class: "vac-avatar vac-avatar-current",
             style: normalizeStyle({ "background-image": `url('${$props.message.avatar}')` })
-          }, null, 4)
+          }, null, 4)) : createCommentVNode("", true)
         ]) : createCommentVNode("", true),
         $options.hasCurrentUserAvatar && !$props.message.avatar ? (openBlock(), createElementBlock("div", _hoisted_12)) : createCommentVNode("", true)
       ])
@@ -28431,7 +28431,8 @@ const _sfc_main$2 = {
     emojisSuggestionEnabled: { type: Boolean, required: true },
     scrollDistance: { type: Number, required: true },
     templatesText: { type: Array, default: null },
-    usernameOptions: { type: Object, required: true }
+    usernameOptions: { type: Object, required: true },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: [
     "toggle-rooms-list",
@@ -28529,10 +28530,10 @@ const _sfc_main$2 = {
         this.showLoader = true;
         this.observer.disconnect();
       }
-      const loader = document.querySelector("vue-advanced-chat").shadowRoot.getElementById("infinite-loader-messages");
+      const loader = this.$el.querySelector("#infinite-loader-messages");
       if (loader) {
         const options2 = {
-          root: document.querySelector("vue-advanced-chat").shadowRoot.getElementById("messages-list"),
+          root: this.$el.querySelector("#messages-list"),
           rootMargin: `${this.scrollDistance}px`,
           threshold: 0
         };
@@ -28884,6 +28885,7 @@ function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
                     "username-options": $props.usernameOptions,
                     "message-selection-enabled": $data.messageSelectionEnabled,
                     "selected-messages": $data.selectedMessages,
+                    "emoji-data-source": $props.emojiDataSource,
                     onMessageAdded: $options.onMessageAdded,
                     onMessageActionHandler: $options.messageActionHandler,
                     onOpenFile: $options.openFile,
@@ -28901,7 +28903,7 @@ function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
                         ])
                       };
                     })
-                  ]), 1032, ["current-user-id", "message", "index", "messages", "edited-message-id", "message-actions", "room-users", "text-messages", "new-messages", "show-reaction-emojis", "show-new-messages-divider", "text-formatting", "link-options", "username-options", "message-selection-enabled", "selected-messages", "onMessageAdded", "onMessageActionHandler", "onOpenFile", "onOpenUserTag", "onSendMessageReaction", "onSelectMessage", "onUnselectMessage"])
+                  ]), 1032, ["current-user-id", "message", "index", "messages", "edited-message-id", "message-actions", "room-users", "text-messages", "new-messages", "show-reaction-emojis", "show-new-messages-divider", "text-formatting", "link-options", "username-options", "message-selection-enabled", "selected-messages", "emoji-data-source", "onMessageAdded", "onMessageActionHandler", "onOpenFile", "onOpenUserTag", "onSendMessageReaction", "onSelectMessage", "onUnselectMessage"])
                 ]);
               }), 128))
             ]),
@@ -28958,6 +28960,7 @@ function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
       "init-reply-message": $data.initReplyMessage,
       "init-edit-message": $data.initEditMessage,
       "dropped-files": $data.droppedFiles,
+      "emoji-data-source": $props.emojiDataSource,
       onUpdateEditedMessageId: _cache[7] || (_cache[7] = ($event) => $data.editedMessageId = $event),
       onEditMessage: _cache[8] || (_cache[8] = ($event) => _ctx.$emit("edit-message", $event)),
       onSendMessage: _cache[9] || (_cache[9] = ($event) => _ctx.$emit("send-message", $event)),
@@ -28972,7 +28975,7 @@ function _sfc_render$2(_ctx, _cache, $props, $setup, $data, $options) {
           ])
         };
       })
-    ]), 1032, ["room", "room-id", "room-message", "text-messages", "show-send-icon", "show-files", "show-audio", "show-emojis", "show-footer", "accepted-files", "textarea-action-enabled", "textarea-auto-focus", "user-tags-enabled", "emojis-suggestion-enabled", "templates-text", "text-formatting", "link-options", "audio-bit-rate", "audio-sample-rate", "init-reply-message", "init-edit-message", "dropped-files"])
+    ]), 1032, ["room", "room-id", "room-message", "text-messages", "show-send-icon", "show-files", "show-audio", "show-emojis", "show-footer", "accepted-files", "textarea-action-enabled", "textarea-auto-focus", "user-tags-enabled", "emojis-suggestion-enabled", "templates-text", "text-formatting", "link-options", "audio-bit-rate", "audio-sample-rate", "init-reply-message", "init-edit-message", "dropped-files", "emoji-data-source"])
   ], 544)), [
     [vShow, $props.isMobile && !$props.showRoomsList || !$props.isMobile || $props.singleRoom]
   ]);
@@ -29559,7 +29562,8 @@ const _sfc_main = {
     usernameOptions: {
       type: [Object, String],
       default: () => ({ minUsers: 3, currentUser: false })
-    }
+    },
+    emojiDataSource: { type: String, default: void 0 }
   },
   emits: [
     "toggle-rooms-list",
@@ -29977,6 +29981,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         "accepted-files": $props.acceptedFiles,
         "templates-text": $options.templatesTextCasted,
         "username-options": $options.usernameOptionsCasted,
+        "emoji-data-source": $props.emojiDataSource,
         onToggleRoomsList: $options.toggleRoomsList,
         onRoomInfo: $options.roomInfo,
         onFetchMessages: $options.fetchMessages,
@@ -30001,7 +30006,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
             ])
           };
         })
-      ]), 1032, ["current-user-id", "rooms", "room-id", "load-first-room", "messages", "room-message", "messages-loaded", "menu-actions", "message-actions", "message-selection-actions", "auto-scroll", "show-send-icon", "show-files", "show-audio", "audio-bit-rate", "audio-sample-rate", "show-emojis", "show-reaction-emojis", "show-new-messages-divider", "show-footer", "text-messages", "single-room", "show-rooms-list", "text-formatting", "link-options", "is-mobile", "loading-rooms", "room-info-enabled", "textarea-action-enabled", "textarea-auto-focus", "user-tags-enabled", "emojis-suggestion-enabled", "scroll-distance", "accepted-files", "templates-text", "username-options", "onToggleRoomsList", "onRoomInfo", "onFetchMessages", "onSendMessage", "onEditMessage", "onDeleteMessage", "onOpenFile", "onOpenUserTag", "onOpenFailedMessage", "onMenuActionHandler", "onMessageActionHandler", "onMessageSelectionActionHandler", "onSendMessageReaction", "onTypingMessage", "onTextareaActionHandler"])
+      ]), 1032, ["current-user-id", "rooms", "room-id", "load-first-room", "messages", "room-message", "messages-loaded", "menu-actions", "message-actions", "message-selection-actions", "auto-scroll", "show-send-icon", "show-files", "show-audio", "audio-bit-rate", "audio-sample-rate", "show-emojis", "show-reaction-emojis", "show-new-messages-divider", "show-footer", "text-messages", "single-room", "show-rooms-list", "text-formatting", "link-options", "is-mobile", "loading-rooms", "room-info-enabled", "textarea-action-enabled", "textarea-auto-focus", "user-tags-enabled", "emojis-suggestion-enabled", "scroll-distance", "accepted-files", "templates-text", "username-options", "emoji-data-source", "onToggleRoomsList", "onRoomInfo", "onFetchMessages", "onSendMessage", "onEditMessage", "onDeleteMessage", "onOpenFile", "onOpenUserTag", "onOpenFailedMessage", "onMenuActionHandler", "onMessageActionHandler", "onMessageSelectionActionHandler", "onSendMessageReaction", "onTypingMessage", "onTextareaActionHandler"])
     ]),
     createVNode(Transition, {
       name: "vac-fade-preview",
