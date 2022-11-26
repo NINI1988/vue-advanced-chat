@@ -26685,13 +26685,16 @@ const _sfc_main$a = {
         });
       }
     },
-    updateActiveUpOrDown(direction) {
+    updateActiveUpOrDown(event, direction) {
       if (this.filteredEmojis.length) {
         this.activeUpOrDownEmojis = direction;
+        event.preventDefault();
       } else if (this.filteredUsersTag.length) {
         this.activeUpOrDownUsersTag = direction;
+        event.preventDefault();
       } else if (this.filteredTemplatesText.length) {
         this.activeUpOrDownTemplatesText = direction;
+        event.preventDefault();
       }
     },
     selectItem() {
@@ -27129,12 +27132,8 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
           _cache[13] || (_cache[13] = withKeys(withModifiers(() => {
           }, ["exact", "prevent"]), ["tab"])),
           _cache[14] || (_cache[14] = withKeys((...args) => $options.selectItem && $options.selectItem(...args), ["tab"])),
-          _cache[15] || (_cache[15] = withKeys(withModifiers(() => {
-          }, ["exact", "prevent"]), ["up"])),
-          _cache[16] || (_cache[16] = withKeys(($event) => $options.updateActiveUpOrDown(-1), ["up"])),
-          _cache[17] || (_cache[17] = withKeys(withModifiers(() => {
-          }, ["exact", "prevent"]), ["down"])),
-          _cache[18] || (_cache[18] = withKeys(($event) => $options.updateActiveUpOrDown(1), ["down"]))
+          _cache[15] || (_cache[15] = withKeys(($event) => $options.updateActiveUpOrDown($event, -1), ["up"])),
+          _cache[16] || (_cache[16] = withKeys(($event) => $options.updateActiveUpOrDown($event, 1), ["down"]))
         ],
         onPaste: _cache[12] || (_cache[12] = (...args) => $options.onPasteImage && $options.onPasteImage(...args))
       }, null, 42, _hoisted_4$8),
@@ -27142,7 +27141,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
         $data.editedMessage._id ? (openBlock(), createElementBlock("div", {
           key: 0,
           class: "vac-svg-button",
-          onClick: _cache[19] || (_cache[19] = (...args) => $options.resetMessage && $options.resetMessage(...args))
+          onClick: _cache[17] || (_cache[17] = (...args) => $options.resetMessage && $options.resetMessage(...args))
         }, [
           renderSlot(_ctx.$slots, "edit-close-icon", {}, () => [
             createVNode(_component_svg_icon, { name: "close-outline" })
@@ -27155,7 +27154,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
               "position-top": true,
               "emoji-data-source": $props.emojiDataSource,
               onAddEmoji: $options.addEmoji,
-              onOpenEmoji: _cache[20] || (_cache[20] = ($event) => $data.emojiOpened = $event)
+              onOpenEmoji: _cache[18] || (_cache[18] = ($event) => $data.emojiOpened = $event)
             }, {
               "emoji-picker-icon": withCtx(() => [
                 renderSlot(_ctx.$slots, "emoji-picker-icon")
@@ -27169,7 +27168,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
         $props.showFiles ? (openBlock(), createElementBlock("div", {
           key: 2,
           class: "vac-svg-button",
-          onClick: _cache[21] || (_cache[21] = (...args) => $options.launchFilePicker && $options.launchFilePicker(...args))
+          onClick: _cache[19] || (_cache[19] = (...args) => $options.launchFilePicker && $options.launchFilePicker(...args))
         }, [
           renderSlot(_ctx.$slots, "paperclip-icon", {}, () => [
             createVNode(_component_svg_icon, { name: "paperclip" })
@@ -27178,7 +27177,7 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
         $props.textareaActionEnabled ? (openBlock(), createElementBlock("div", {
           key: 3,
           class: "vac-svg-button",
-          onClick: _cache[22] || (_cache[22] = (...args) => $options.textareaActionHandler && $options.textareaActionHandler(...args))
+          onClick: _cache[20] || (_cache[20] = (...args) => $options.textareaActionHandler && $options.textareaActionHandler(...args))
         }, [
           renderSlot(_ctx.$slots, "custom-action-icon", {}, () => [
             createVNode(_component_svg_icon, { name: "deleted" })
@@ -27191,12 +27190,12 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
           multiple: "",
           accept: $props.acceptedFiles,
           style: { "display": "none" },
-          onChange: _cache[23] || (_cache[23] = ($event) => $options.onFileChange($event.target.files))
+          onChange: _cache[21] || (_cache[21] = ($event) => $options.onFileChange($event.target.files))
         }, null, 40, _hoisted_7$3)) : createCommentVNode("", true),
         $props.showSendIcon ? (openBlock(), createElementBlock("div", {
           key: 5,
           class: normalizeClass(["vac-svg-button", { "vac-send-disabled": $options.isMessageEmpty }]),
-          onClick: _cache[24] || (_cache[24] = (...args) => $options.sendMessage && $options.sendMessage(...args))
+          onClick: _cache[22] || (_cache[22] = (...args) => $options.sendMessage && $options.sendMessage(...args))
         }, [
           renderSlot(_ctx.$slots, "send-icon", {}, () => [
             createVNode(_component_svg_icon, {
